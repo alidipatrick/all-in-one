@@ -4,7 +4,7 @@ FROM eturnal/eturnal:1.12.0 AS eturnal
 FROM strukturag/nextcloud-spreed-signaling:1.2.4 as signaling
 FROM alpine:3.19.1 as janus
 
-ARG JANUS_VERSION=v0.14.2
+ARG JANUS_VERSION=v0.15.0
 WORKDIR /src
 RUN set -ex; \
     apk add --no-cache \
