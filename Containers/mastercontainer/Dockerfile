@@ -43,7 +43,7 @@ RUN set -ex; \
     apk add --no-cache --virtual .build-deps \
         autoconf \
         build-base; \
-    pecl install APCu-5.1.23; \
+    pecl install APCu-5.1.24; \
     docker-php-ext-enable apcu; \
     rm -r /tmp/pear; \
     runDeps="$( \
