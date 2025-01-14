@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:latest
 FROM golang:1.22.2-alpine3.18 as go
 
-ENV IMAGINARY_HASH 6cd9edd1d3fb151eb773c14552886e4fc8e50138
+ENV IMAGINARY_HASH 1d4e251cfcd58ea66f8361f8721d7b8cc85002a3
 
 RUN set -ex; \
     apk add --no-cache \
